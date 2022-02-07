@@ -1,2 +1,2 @@
 # projectTECH
-dit is de readme.md voor het project!
+dit is de readme voor het project!
