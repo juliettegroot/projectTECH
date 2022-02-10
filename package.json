@@ -1,0 +1,23 @@
+{
+  "name": "projecttech",
+  "version": "1.0.0",
+  "description": "dit is de readme voor het project!",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliettegroot/projectTECH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliettegroot/projectTECH/issues"
+  },
+  "homepage": "https://github.com/juliettegroot/projectTECH#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
