@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const port = 3000
 
 app.get('/', onHome)
 app.get('/about', onAbout)
@@ -17,5 +18,9 @@ function onAbout(req, res) {
 function notFound(req, res) {
     res.send('Not found')
 }
+
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+  })
 
 console.log('hallo')
