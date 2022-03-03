@@ -1,26 +1,33 @@
-const express = require('express');
-const app = express();
-const port = 3000
+const express = require('express')
+const app = express()
+const bodyParser = require('body-parser')
+const { engine } = require('express-handlebars')
+// define our port
+const PORT = 3000
+// setup the view engine
+app.engine('handlebars', engine())
+app.set('view engine', 'handlebars')
+app.set('views', './views')
 
-app.get('/', onHome)
-app.get('/about', onAbout)
+// setup bodyparser to be able to see the data thats being sent from the client
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
+// define our static folder
+app.use(express.static('static'))
 
-app.get('*', notFound)
+app.get('/', function(req, res) {
+    res.render('home')
+})
 
-function onHome(req, res) {
-    res.send('hello from home')
-}
+app.get('/about', function(req, res) {
+    res.render('about')
+})
 
-function onAbout(req, res) {
-    res.send('hello from about')
-}
+app.post('/likeUser', function(req, res) {
+    // req.body
+    
+})
 
-function notFound(req, res) {
-    res.send('404 Not Found')
-}
-
-app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-  })
-
-console.log('hallo')
+app.listen(PORT, function() {
+    console.log('App listening to port:', PORT)
+})
