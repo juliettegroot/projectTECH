@@ -16,7 +16,7 @@ function onAbout(req, res) {
 }
 
 function notFound(req, res) {
-    res.send('Not found')
+    res.send('404 Not Found')
 }
 
 app.listen(port, () => {
