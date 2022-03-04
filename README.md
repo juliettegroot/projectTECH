@@ -1,5 +1,5 @@
 # project-TECH
-dit is de readme voor het project!
+Dit is de readme voor het project!
 
 
 ## Todo
