@@ -1,7 +1,20 @@
+require('dotenv').config()
+
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 const { engine } = require('express-handlebars')
+
+// DATABASE OPZETTEN
+const mongoose = require('mongoose')
+const dbKey = process.env.MONGO_URI
+
+mongoose.connect(dbKey,{useNewURLParser:true})
+.then(() => console.log('Database is connected'))
+.catch(err=>console.log(err))
+
+app.use(express.urlencoded({extended:false}))
+
 // define our port
 const PORT = 3000
 // setup the view engine
@@ -19,8 +32,8 @@ app.get('/', function(req, res) {
     res.render('home')
 })
 
-app.get('/about', function(req, res) {
-    res.render('about')
+app.get('/like', function(req, res) {
+    res.render('like')
 })
 
 app.post('/likeUser', function(req, res) {
