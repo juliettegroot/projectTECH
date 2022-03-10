@@ -5,3 +5,7 @@ body {
 h2 {
     color: green;
 }
+
+img {
+    border: 1em black;
+}
