@@ -1,11 +1,10 @@
-# project-TECH
-Dit is de readme voor het project!
+# project-TECH Repo
+Dit is de readme van het project hier vindt je nuttige info over het project!
 
-Klik op dezek link om naar mijn feature te gaan: 
+## Inhoudsopgave
+<ul>
+    <li><a href="#inleiding">Inleiding</li>
+    <li><a href="#idee">Concept & Doel</li>
+</ul>
 
-Ik ga een matching applicatie maken die te maken heeft met het vinden van films. Ik heb ervoor gekozen om de feature liken en swipen te doen. Hierover meer als je doorleest.
-
-
-
-
-
+<h2 id="inleiding">Inleiding</h2>
