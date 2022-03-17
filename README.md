@@ -8,7 +8,4 @@ Ik ga een matching applicatie maken die te maken heeft met het vinden van films.
 
 
 
-## Todo
 
-* Do Input assignment (creating a form and reading the data coming from the client)
-* Do Connect assignment (setting up the database) 
