@@ -143,3 +143,16 @@ nav button.like {
 }
 
 
+  /***************/
+ /* LIKE PAGINA */
+/***************/
+
+section.like img {
+    top: 7em;
+    left: 3em; 
+    width: 4em;
+}
+
+section.like p {
+    top: 4em;
+}
