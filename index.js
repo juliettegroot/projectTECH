@@ -4,6 +4,9 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 const { engine } = require('express-handlebars')
+const bcrypt = require('bcrypt');
+
+
 
 // DATABASE OPZETTEN
 const mongoose = require('mongoose')
@@ -32,15 +35,19 @@ app.get('/', function(req, res) {
     res.render('home')
 })
 
-app.get('/like', function(req, res) {
-    res.render('like')
+app.get('/inlog', function(req, res) {
+    res.render('inlog')
 })
 
-app.post('/likeUser', function(req, res) {
-    // req.body
-    
+app.get('/register', function(req, res) {
+    res.render('register')
 })
+
+// app.post('/likeUser', function(req, res) {
+//     // req.body
+    
+// })
 
 app.listen(PORT, function() {
-    console.log('App listening to port:', PORT)
+    console.log(`Server running at http://localhost:3000`);
 })
