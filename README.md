@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # project-TECH Repo
+=======
+# project-TECH
+>>>>>>> f4c47bb2b95f020bf630e7936b44704c5ee5930e
 Dit is de readme van het project hier vindt je nuttige info over het project!
 
 ## Inhoudsopgave
@@ -15,4 +19,8 @@ Ik heb ervoor gekozen om de swipe/like feature uit te werken en daarover meer in
 <h2 id="idee">Concept & Doel</h2>
 Ik had het idee om een matching app vooor het vinden van films te maken. Dus je swipet door allemaal filmposters met korte filmbeschrijving om zo de beste films voor jou te vinden.
 
+<<<<<<< HEAD
 Het idee was dat deze matching applicatie ter inspieratie kan werken voor als je geen films meer te kijken hebt.
+=======
+Het idee was dat deze matching applicatie ter inspieratie kan werken voor als je geen films meer te kijken hebt.
+>>>>>>> f4c47bb2b95f020bf630e7936b44704c5ee5930e
