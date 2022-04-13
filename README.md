@@ -19,4 +19,3 @@ Ik heb ervoor gekozen om de swipe/like feature uit te werken en daarover meer in
 Ik had het idee om een matching app vooor het vinden van films te maken. Dus je swipet door allemaal filmposters met korte filmbeschrijving om zo de beste films voor jou te vinden.
 
 Het idee was dat deze matching applicatie ter inspieratie kan werken voor als je geen films meer te kijken hebt.
-
