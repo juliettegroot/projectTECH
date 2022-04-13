@@ -1,4 +1,4 @@
-# project-TECH Repo
+# project-TECH
 Dit is de readme van het project hier vindt je nuttige info over het project!
 
 ## Inhoudsopgave
